@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.all-dive{
+    width: 100%;
+background-color: #d497e4;
+height: auto;
+border: 5px solid rgb(27, 26, 26);
+border-radius: 8px;
+}
+
+   /* about-option */
+.booker{
+    text-align: center;
+}
+
+.hero{
+    width: 327px;
+    height: 308px;
+    margin-top: 20px;
+     text-align: center;
+    border-radius: 300px;
+    box-shadow: -5px 7px +7px 7px rgba(230, 22, 22, 0.2);
+    border: 2px solid white;
+
+    }
+    /* header-text */
+    .anather{
+        width:0ch;
+        white-space:nowrap;
+        overflow:hidden;
+        animation:typing 15s steps(44) infinite alternate;
+        border-right:5px solid rgb(231, 12, 12);
+        font-size: 24px;
+        line-height: 180%;
+    }
+    @keyframes typing{
+        0%{
+            width:0ch;
+        }
+        50%{
+            width:44ch;
+        }
+    }
+/* header-text */
+.header-text-1{
+    font-size: 30px;
+    background: -webkit-linear-gradient(#10f408, rgb(247, 8, 8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-text h1{
+font-family: Montserrat;
+font-size: 25px;
+line-height: 180%;
+font-weight: bold;
+color: #f1c7c7;
+width: 500px;
+background: -webkit-linear-gradient(#f50c0c, rgb(128, 116, 116));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.header-text p{
+  font-family: montserrat;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 180%;
+
+  color: #828282;
+  margin-bottom: 100px;
+}
+
+.header-text a{
+    text-decoration: none;
+    font-family: montserrat;
+    background-color: rgb(199, 63, 63);
+    padding: 10px 26px;
+    border-radius: 100px;
+   font-size: 20px;
+   font-weight: 700px;
+   color: aliceblue;
+   width: 152px;
+   height: 62px;
+   line-height: 60%;
+   box-shadow: -7px 7px 7px 7px rgba(21, 22, 14, 0.2);
+}
+
+/* header-text end*/
+
+
+/* header-cv */
+
+.allcv {
+
+    width: 947px;
+    height: 0px auto;
+    background-color: white;
+    margin-left: 286px;
+    margin-top: 40px;
+    height: 1832px;
+}
+.heading {
+    margin-left: 50px;
+    padding-top: 60px;
+}
+
+.imges {
+    float: right;
+    padding-right: 40px;
+}
+
+.book23 {
+    padding-left: 50px;
+}
+.doog {
+    float: left;
+}
+
+.book {
+    float: right;
+    padding-right: 273px;
+    margin-top: 20px;
+}
+
+.h12 {
+    background-color: aqua;
+    width: 800px;
+    margin-left: 50px;
+}
+
+.block {
+    padding-left: 50px;
+}
+.underline {
+    padding-left: 50px;
+}
+.experince {
+    padding-left: 50px;
+}
+.system {
+    float: right;
+    padding-right: 424px;
+}
+.positon {
+    float: left;
+}
+.Achievement {
+    padding-left: 50px;
+}
+.SPECIAl {
+    padding-left: 63px;
+}
+
+.mysome {
+    padding-left: 63px;
+}
+.ulll {
+    float: left;
+}
+
+.usss {
+    float: right;
+    padding-right: 390px;
+}
+
+.diploma {
+    padding-left: 50px;
+}
+.school {
+    padding-left: 50px;
+}
+
+.school-name {
+    float: left;
+}
+.school-position {
+    float: right;
+    padding-right: 195px;
+}
+
+.SECONDARy {
+    padding-left: 50px;
+}
+
+.secon {
+    float: left;
+}
+
+.second {
+    float: right;
+    padding-right: 344px;
+}
+
+.fathers {
+    padding-left: 50px;
+}
+
+.fathers-name {
+    float: left;
+}
+
+.mothers-name {
+    float: right;
+    padding-right: 440px;
+}
+
+.REFERENCE {
+    padding-left: 55px;
+    border: 1px solid black;
+    width: 747px;
+    height: 118px;
+    margin-left: 49px;
+}
+.kawsar {
+    float: right;
+    padding-right: 30px;
+}
+. {
+    float: left;
+    padding: 30px;
+}
+
+hr {
+    width: 119px;
+    margin-left: 59px;
+}
+
+.sing {
+    padding-left: 90px;
+}
+
+/* header-cv end*/
+
+/* baout-me */
+.baout-me{
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#fba12f, rgb(247, 8, 8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-logo{
+   text-align: center;
+}
+
+.about-logo img {
+    width: 351px;
+    height: 450px;
+    border-radius: 5px;
+    border: 5px solid rgb(199, 63, 63);
+
+ }
+
+ /* feature_item */
+ .bi{
+font-size: 50px;
+align-items: center;
+ }
+
+
+ .feature_item :hover{
+    border: 0px solid white;
+    padding: 19px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all ease 0.s;
+    box-shadow: 0 0 20px rgb(255, 54, 45);
+    background-color: white;
+    color: black;
+    font-weight: ;
+
+ }
+  /* feature_item */
+
+  /* SKILLS */
+  .myProgress {
+    width: 45%;
+    background-color: rgb(53, 59, 59);
+margin-left: 20px;
+border-radius: 28px
+  }
+
+  .myBar {
+    width: 103%;
+    height: 32px;
+    background-color: rgb(107, 118, 113);
+    text-align: center;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+   border-radius: 28px;
+   margin-left: -12px;
+   text-align: right;
+   font-weight:bold;
+   font-size: 20px;
+
+  }
+
+.option-1{
+float: left;
+margin-left: 10px;
+}
+/* myBar-2 STARET */
+.myBar-2{
+    width: 99%;
+    height: 32px;
+    background-color: rgb(107, 118, 113);
+    text-align: center;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+   border-radius: 28px;
+   margin-left: -12px;
+   text-align: right;
+   font-weight:bold;
+   font-size: 20px;
+
+}
+/* myBar-2 END */
+/* SKILLS */
+.mypage {
+    width: 45%;
+    background-color: rgb(53, 59, 59);
+margin-left: 20px;
+border-radius: 28px
+  }
+
+  .mybook {
+    width: 103%;
+    height: 32px;
+    background-color: rgb(107, 118, 113);
+    text-align: center;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+   border-radius: 28px;
+   margin-left: -12px;
+   text-align: right;
+   font-weight:bold;
+   font-size: 20px;
+
+  }
+
+.option-2{
+float: left;
+margin-left: 10px;
+}
+/* myBar-2 STARET */
+.mybook{
+    width: 95%;
+    height: 32px;
+    background-color: rgb(107, 118, 113);
+    text-align: center;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+   border-radius: 28px;
+   margin-left: -12px;
+   text-align: right;
+   font-weight:bold;
+   font-size: 20px;
+
+}
+
+.mybook-3{
+    width: 90%;
+    height: 32px;
+    background-color: rgb(107, 118, 113);
+    text-align: center;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+   border-radius: 28px;
+   margin-left: -12px;
+   text-align: right;
+   font-weight:bold;
+   font-size: 20px;
+
+}
+
+
+.mybook-4{
+    width: 88%;
+    height: 32px;
+    background-color: rgb(107, 118, 113);
+    text-align: center;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+   border-radius: 28px;
+   margin-left: -12px;
+   text-align: right;
+   font-weight:bold;
+   font-size: 20px;
+
+}
+
+  /* SKILLS */
